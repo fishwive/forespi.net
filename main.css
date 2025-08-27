@@ -1,0 +1,55 @@
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+body {
+    background-image: url("imgs/bg.png");
+    background-size: auto 110vh;
+    background-position: 50% 0%;
+    text-align: center;
+    animation: animatedBackground 60s linear infinite;
+}
+
+.record {
+    display: inline-block;
+    margin: 15px;
+    width: 400px;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+.boxdiv {
+    background-color: black;
+    border: 2px white solid;
+    width: 600px;
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div p {
+    padding: 20px;
+}
+
+audio {
+    display: inline;
+    padding-left: 20px;
+}
+
+.boxdiv p {
+    padding-top: 0;
+    padding-bottom: 3px;
+}
+
+p, h1, a {
+    color: white;
+    text-decoration: none;
+}
