@@ -9,6 +9,7 @@
 
 body {
     background-image: url("imgs/bg.png");
+    background-attachment: fixed;
     background-size: auto 110vh;
     background-position: 50% 0%;
     text-align: center;
@@ -55,5 +56,6 @@ p, h1, a {
     text-decoration: none;
 
 }
+
 
 
