@@ -13,6 +13,7 @@ body {
     background-position: 50% 0%;
     text-align: center;
     animation: animatedBackground 60s linear infinite;
+    margin-top: 20px;
 }
 
 .record {
@@ -52,4 +53,5 @@ audio {
 p, h1, a {
     color: white;
     text-decoration: none;
+
 }
