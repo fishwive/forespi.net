@@ -13,7 +13,7 @@ body {
     background-position: 50% 0%;
     text-align: center;
     animation: animatedBackground 60s linear infinite;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .record {
@@ -55,4 +55,5 @@ p, h1, a {
     text-decoration: none;
 
 }
+
 
