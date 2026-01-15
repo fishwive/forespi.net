@@ -7,13 +7,22 @@
   }
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("imgs/bg.png");
+  background-size: auto 110vh;
+  background-position: 50% 0%;
+  animation: animatedBackground 60s linear infinite;
+  z-index: -1;
+}
+
 body {
-    background-image: url("imgs/bg.png");
-    background-attachment: fixed;
-    background-size: auto 110vh;
-    background-position: 50% 0%;
     text-align: center;
-    animation: animatedBackground 60s linear infinite;
     padding-top: 20px;
     overflow-x: hidden !important;
     width: 100vw;
@@ -58,6 +67,7 @@ p, h1, a {
     text-decoration: none;
 
 }
+
 
 
 
